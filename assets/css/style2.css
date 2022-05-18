@@ -14,30 +14,49 @@
     padding: 1rem;
     text-align: end;
     background-color: #197f5b;
-    
+  
 }
 
 .container-hamburguer span{
     color: #ffff;
 }
-
-.menu ul li a{
-    text-decoration: none;
-    color: #ffff;
+nav ul li span{
+    color:#ef9919
 }
 
-.menu ul li{
-    margin-bottom: 10px;
-}
-
-.menu ul{
-    display: none;
-    list-style: none;
-    background-color: #063b29;
-    padding: 8px;
-}
-.center-ul{
+nav{
+    width: 100%;
     text-align: center;
+    max-height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #0d4330;
+    transition: max-height 3s;
+    position: absolute;
+    z-index: 1;
+    
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    max-width: 100%;
+    padding: 5px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#ffff;
+}
+
+.menu{
+    max-height: 0vh;
+    overflow: hidden;
+    transition: all 2s;
 }
 
 
@@ -49,6 +68,7 @@
 .container-title{
     color:#ffff;
     position: absolute;
+
     top:5%;
     width: 100%;
 
@@ -467,6 +487,8 @@ footer h3{
         padding: 1rem;
         text-align: end;
         background-color: #197f5b;
+        position: relative;
+        z-index: 1;
         
     }
     
@@ -914,38 +936,46 @@ footer h3{
         background-color: #197f5b;
         height: 140vh;
         text-align: center;
+        padding: 1rem;
     }
     
     .container-hamburguer{
-        padding: 1rem;
-        text-align: end;
-        background-color: #197f5b;
+        display: none;
         
     }
     
-    .container-hamburguer span{
-        color: #ffff;
-    }
     
-    .menu ul li a{
-        text-decoration: none;
-        color: #ffff;
+    nav{
+        display: flex;
+        justify-content: end;
+        background-color: #197f5b;
+        max-height: none;
+        transition: max-height 3s;
+        position: relative;
     }
+/*
+
     
-    .menu ul li{
-        margin-bottom: 10px;
-    }
-    
-    .menu ul{
-        display: none;
+*/
+    nav ul{
         list-style: none;
-        background-color: #063b29;
-        padding: 8px;
+
     }
-    .center-ul{
-        text-align: center;
+
+    nav li{
+        padding: 10px;
+        display: inline-block;
     }
-    
+
+    nav a{
+        text-decoration: none;
+        color:#ffff;
+    }
+    .menu{
+        max-height: 0vh;
+        overflow: hidden;
+        transition: all 2s;
+    }
     
     
     /*intro*/
@@ -955,7 +985,7 @@ footer h3{
     .container-title{
         color:#ffff;
         position: absolute;
-        top:2%;
+        top:8%;
         width: 100%;
     
     }
@@ -1413,7 +1443,7 @@ footer h3{
     .container-title{
         color:#ffff;
         position: absolute;
-        top:2%;
+        top:5%;
         width: 100%;
     
     }

@@ -14,23 +14,21 @@
 </head>
 <body>
     <header class="background">
-        <nav class="menu">
-            <div class="container-hamburguer">
+            <div class="container-hamburguer" onclick="toggleMenu()">
                 <span><i class="fa-solid fa-burger"></i></span>
-            </div>
-            <div class="center-ul">
+            </div> 
+            <nav id="mainMenu" class="menu">
                 <ul>
-                    <li><a href="#home" ><span id="home">Home</span></a></li>
+                    <li><a href="#home"><span>Home</span></a></li>
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#studies">Studies</a></li>
                     <li><a href="#my-skills">My Skills</a></li>
                     <li><a href="#portfolio">My Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
         <section class="intro">
-            <div class="container-title">
+            <div class="container-title" id="home">
                 <h2><span>Gabriel Sanchez</span></h2>
                 <h1>Designer and Developer web</h1>
             </div>
@@ -160,5 +158,6 @@
             <h3 >Hecho con mucho <i class="fa-solid fa-heart" style="color: #ef9919;"></i></h3>
             </div>
     </footer>
+    <script src="./assets/js/toggle.js"></script>
 </body>
 </html>
