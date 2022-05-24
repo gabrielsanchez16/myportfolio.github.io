@@ -96,6 +96,8 @@ nav a{
 
 .container-img img{
     width: 150px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 35%;
 }
 .container-img{
     border: solid 1px #ffff;
