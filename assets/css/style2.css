@@ -12,6 +12,7 @@
     padding: 1rem;
     text-align: end;
     background-color: #197f5b;
+    box-shadow: 1px 3px #177956;
   
 }
 
@@ -33,7 +34,7 @@ nav{
     transition: max-height 3s;
     position: absolute;
     z-index: 1;
-    
+   
 
 }
 
@@ -67,7 +68,7 @@ nav a{
 .container-title{
     color:#ffff;
     position: absolute;
-    top:-2%;
+    top:1%;
     width: 100%;
 
 }
@@ -124,6 +125,7 @@ nav a{
     position: relative;
     width: 71%;
     margin-bottom: 10%;
+    margin-top: 4%;
 }
 
 .container-span span{
@@ -489,7 +491,7 @@ footer h3{
     .container-title{
         color:#ffff;
         position: absolute;
-        top:-2%;
+        top:2%;
         width: 100%;
     
     }
@@ -536,6 +538,7 @@ footer h3{
         position: relative;
         width: 70%;
         margin-bottom: 17%;
+        
     }
     
     .container-span span{
@@ -984,6 +987,7 @@ footer h3{
         position: relative;
         width: 70%;
         margin-bottom: 17%;
+        margin-top: 0;
     }
     
     .container-span span{
@@ -1446,6 +1450,7 @@ footer h3{
         position: relative;
         width: 70%;
         margin-bottom: 10%;
+        margin-top: 0;
     }
     
     .container-span span{
@@ -1907,6 +1912,7 @@ footer h3{
         position: relative;
         width: 70%;
         margin-bottom: 10%;
+        margin-top: 0;
     }
     
     .container-span span{
