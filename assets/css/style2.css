@@ -901,6 +901,7 @@ footer h3{
         max-height: none;
         transition: max-height 3s;
         position: relative;
+        box-shadow: 1px 3px #177956;
     }
 /*
 
