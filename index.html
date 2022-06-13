@@ -1,178 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabriel Sanchez</title>
-    <link rel="stylesheet" href="./assets/css/style2.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./assets/css/efecctLetters.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
-<body>
-    <header data-aos="zoom-in"  class="background">
-            <div class="container-hamburguer" >
-                <span onclick="toggleMenu()"><i class="fa-solid fa-burger"></i></span>
-            </div> 
-            <nav id="mainMenu" class="menu">
-                <ul>
-                    <li><a href="#home"><span>Home</span></a></li>
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#studies">Studies</a></li>
-                    <li><a href="#my-skills">My Skills</a></li>
-                    <li><a href="#portfolio">My Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        <section  class="intro">
-            <div data-aos="fade-up" class="container-title" id="home">
-                <h2><i class="fa-solid fa-quote-left"></i><span> Gabriel Sanchez</span></h2>
-                <h1>Front-end Developer <i class="fa-solid fa-quote-right"></i></h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
+  <body>
+    <header data-aos="zoom-in" class="background">
+      <div class="container-hamburguer">
+        <span onclick="toggleMenu()"><i class="fa-solid fa-burger"></i></span>
+      </div>
+      <nav id="mainMenu" class="menu">
+        <ul>
+          <li>
+            <a href="#home"><span>Home</span></a>
+          </li>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#studies">Studies</a></li>
+          <li><a href="#my-skills">My Skills</a></li>
+          <li><a href="#portfolio">My Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="intro">
+        <div data-aos="fade-up" class="container-title" id="home">
+            <h2 class="ml11">
+                <span class="text-wrapper">
+                    <span class=" line1"></span>
+                    <span class="letters">Gabriel Sanchez</span>
+                </span>
+            </h2>
+          <h1 class="ml11">
+            <span class="text-wrapper">
+              <span class="line1"></span>
+              <span class="letters">Front end Developer</span>
+            </span>
+          </h1>
+        </div>
+        <div class="main-container-img">
+          <div class="sub-container-img">
+            <div class="container-frontend">
+              <h3>
+                Front-end Dev <br />
+                <span>Passionate</span>
+              </h3>
             </div>
-            <div class="main-container-img">
-                <div class="sub-container-img">
-                    <div class="container-frontend">
-                        <h3>Front-end Dev <br> <span>Passionate</span> </h3>
-                    </div>
-                    <div class="container-designer">
-                        <h3>UI Designer <br> <span>Ingenious</span> </h3>
-                    </div> 
-                    <div class="container-span">
-                        <span class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/gabriel-sanchez-717222206/"><i class="fa-brands fa-linkedin-in fa-lx" style="color: #197f5b;" ></i></a></span>
-                        <span class="instagram"><a target="_blank" href="https://www.instagram.com/gabo_athlete/"><i  class="fa-brands fa-instagram fa-lx" style="color: #197f5b;"></i></a></span>
-                        <span class="git-hub"><a target="_blank" href="https://github.com/gabrielsanchez16"><i class="fa-brands fa-github fa-lx" style="color: #197f5b;"></i></a></span>
-                    </div>
-                    <div class="container-img">
-                        <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" src="./assets/img/gabrielfotoperfil.jpeg"  alt="Gabriel">
-                    </div>
-                </div>
+            <div class="container-designer">
+              <h3>
+                UI Designer <br />
+                <span>Ingenious</span>
+              </h3>
             </div>
-        </section>
+            <div class="container-span">
+              <span class="linkedin"
+                ><a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/gabriel-sanchez-717222206/"
+                  ><i
+                    class="fa-brands fa-linkedin-in fa-lx"
+                    style="color: #197f5b"
+                  ></i></a
+              ></span>
+              <span class="instagram"
+                ><a
+                  target="_blank"
+                  href="https://www.instagram.com/gabo_athlete/"
+                  ><i
+                    class="fa-brands fa-instagram fa-lx"
+                    style="color: #197f5b"
+                  ></i></a
+              ></span>
+              <span class="git-hub"
+                ><a target="_blank" href="https://github.com/gabrielsanchez16"
+                  ><i
+                    class="fa-brands fa-github fa-lx"
+                    style="color: #197f5b"
+                  ></i></a
+              ></span>
+            </div>
+            <div class="container-img">
+              <img
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="3000"
+                src="./assets/img/gabrielfotoperfil.jpeg"
+                alt="Gabriel"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main class="main-content">
-        <div data-aos="fade-up" class="container-email">
-            <section class="leave-email">
-                <h3>Would you like to collaborate together creating amazing products?</h3>
-                <button>
-                    <a href="mailto:gabrielpelota.8@gmail.com">
-                        <span>
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </span>
-                        Contact me
-                    </a>
-                </button>
-            </section>
+      <div data-aos="fade-up" class="container-email">
+        <section class="leave-email">
+          <h3>
+            Would you like to collaborate together creating amazing products?
+          </h3>
+          <button>
+            <a href="mailto:gabrielpelota.8@gmail.com">
+              <span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </span>
+              Contact me
+            </a>
+          </button>
+        </section>
+      </div>
+      <section data-aos="fade-up" class="acerca-de-mi">
+        <h2 id="about-me">About me</h2>
+        <article class="parrafo">
+          <p>
+            -I am passionate about web development, I am currently studying at
+            the Universidad del Pacifico training as a Systems Engineer, I am
+            also studying at Academlo where I am developing skills as a
+            Full-stack web developer, building projects to strengthen my skills
+            as a developer and strengthen the work in equipment.<br /><br />
+
+            -I am self-taught, I like to always be acquiring new knowledge that
+            nurtures my ability to develop solutions to problems that arise,
+            always open to receiving advice and indications that help me in my
+            personal and professional growth.<br /><br />
+
+            - I consider myself a very responsible person, eager to exploit my
+            skills, always open to learning. I am a high-performance athlete and
+            I believe that the dedication and discipline that I have developed
+            in my sports life is equally applied in my training and development
+            of my projects.
+          </p>
+        </article>
+        <div class="center-button">
+          <button>
+            <a
+              download="Gabriel Sanchez CV"
+              href="assets/CV/GabrielSanchezCv.pdf"
+              ><span class="icon-download"
+                ><i class="fa-solid fa-download"></i></span
+              >Download CV</a
+            >
+          </button>
         </div>
-        <section data-aos="fade-up" class="acerca-de-mi">
-            <h2  id="about-me">About me</h2>
-            <article class="parrafo">
-                <p>
-                    -I am passionate about web development, I am currently studying at the Universidad del Pacifico 
-                    training as a Systems Engineer, I am also studying at Academlo where I am developing skills as 
-                    a Full-stack web developer, building projects to strengthen my skills as a developer and strengthen
-                    the work in equipment.<br><br>
+      </section>
+      <section data-aos="fade-up" class="Estudios">
+        <h2 id="studies">Studies</h2>
+        <div class="container-estudios">
+          <div data-aos="flip-left" class="Universidad-pacifico">
+            <a href="https://universidad.sttokpublicidad.com/"
+              ><img
+                src="assets/img/Universidad_del_Pacifico__1_-removebg-preview.png"
+                width="61"
+                height="78"
+                alt="Universidad del Pacifico"
+            /></a>
+            <h3>Universidad Del Pacifico</h3>
+            <p>2020-2025</p>
+            <p>systems engineering</p>
+          </div>
+          <div data-aos="flip-left" class="academlo">
+            <a
+              href="https://www.academlo.com/curso-programacion-web-full-stack/"
+              ><img src="./assets/img/logo_academlo 2.png" alt="Academlo"
+            /></a>
+            <h3>Academlo</h3>
+            <p>2022-2023</p>
+            <p>Developer full stack</p>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="Habilidades">
+        <h2 id="my-skills">My Skills</h2>
+        <div class="container-skills">
+          <div data-aos="flip-right" class="html">
+            <img src="./assets/img/html-5.png" alt="HTML" />
+            <h3></h3>
+          </div>
+          <div data-aos="flip-right" class="css">
+            <img src="./assets/img/css-3.png" alt="CSS" />
+            <h3 style="color: #5e5f62">CSS</h3>
+          </div>
+          <div data-aos="flip-right" class="javascript">
+            <img src="./assets/img/java-script.png" alt="Javascript" />
+            <h3>Javascript</h3>
+          </div>
+          <div data-aos="flip-right" class="react">
+            <img src="./assets/img/react.png" alt="React" />
+            <h3></h3>
+          </div>
+          <div data-aos="flip-right" class="github">
+            <img src="./assets/img/github.png" alt="GITHUB" />
+            <h3></h3>
+          </div>
+          <div data-aos="flip-right" class="Git">
+            <img src="./assets/img/git.png" alt="GIT" />
+            <h3></h3>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="portfolio">
+        <h2 id="portfolio">My Portfolio</h2>
+        <div class="container-portfolio">
+          <a href="https://climaapp-by-gabrieldev.netlify.app/" target="_blank"
+            ><img
+              data-aos="flip-right"
+              class="img-4"
+              src="./assets/img/climaapp3.png"
+              alt="ClimaApp"
+          /></a>
 
-                    -I am self-taught, I like to always be acquiring new knowledge that nurtures my ability to develop 
-                    solutions to problems that arise, always open to receiving advice and indications that help me in 
-                    my personal and professional growth.<br><br>
+          <a
+            href="https://rick-and-morty-gabrieldev.netlify.app/"
+            target="_blank"
+            ><img
+              data-aos="flip-right"
+              class="img-4"
+              src="./assets/img/rickandmorty.png"
+              alt="rickandmorty"
+          /></a>
 
-                    - I consider myself a very responsible person, eager to exploit my skills, always open to learning.
-                    I am a high-performance athlete and I believe that the dedication and discipline that I have developed
-                    in my sports life is equally applied in my training and development of my projects.
-                </p>
-            </article>
-            <div class="center-button">
-                <button> <a download="Gabriel Sanchez CV" href="assets/CV/GabrielSanchezCv.pdf"><span class="icon-download"><i class="fa-solid fa-download"></i></span>Download CV</a></button>
-            </div> 
-        </section>
-        <section data-aos="fade-up" class="Estudios">
-            <h2 id="studies">Studies</h2>
-            <div class="container-estudios">
-                <div data-aos="flip-left" class="Universidad-pacifico">
-                    <a href="https://universidad.sttokpublicidad.com/"><img src="assets/img/Universidad_del_Pacifico__1_-removebg-preview.png" width="61" height="78"  alt="Universidad del Pacifico"></a>
-                    <h3>Universidad Del Pacifico</h3>
-                    <p>2020-2025</p>
-                    <p>systems engineering</p>
-                </div>
-                <div data-aos="flip-left" class="academlo">
-                    <a href="https://www.academlo.com/curso-programacion-web-full-stack/"><img src="./assets/img/logo_academlo 2.png" alt="Academlo"></a>
-                    <h3>Academlo</h3>
-                    <p>2022-2023</p>
-                    <p>Developer full stack</p>
-                </div>
-            </div>
-        </section>
-        <section data-aos="fade-up" class="Habilidades">
-            <h2 id="my-skills">My Skills</h2>
-            <div class="container-skills"> 
-                <div  data-aos="flip-right" class="html">
-                    <img src="./assets/img/html-5.png"  alt="HTML">
-                    <h3></h3>
-                </div>
-                <div data-aos="flip-right" class="css">
-                    <img src="./assets/img/css-3.png"  alt="CSS">
-                    <h3 style="color: #5e5f62;">CSS</h3>
-                </div>
-                <div data-aos="flip-right" class="javascript">
-                    <img src="./assets/img/java-script.png"  alt="Javascript">
-                    <h3>Javascript</h3>
-                </div>
-                <div data-aos="flip-right" class="react">
-                    <img src="./assets/img/react.png" alt="React">
-                    <h3></h3>
-                </div>
-                <div  data-aos="flip-right" class="github">
-                    <img src="./assets/img/github.png"  alt="GITHUB">
-                    <h3></h3>
-                </div>
-                <div  data-aos="flip-right" class="Git">
-                    <img src="./assets/img/git.png"  alt="GIT">
-                    <h3></h3>
-                </div>
-            </div>
-        </section>
-        <section data-aos="fade-up" class="portfolio">
-            <h2 id="portfolio">My Portfolio</h2>
-                <div class="container-portfolio">
-                    <a href="https://climaapp-by-gabrieldev.netlify.app/" target="_blank"><img data-aos="flip-right" class="img-4" src="./assets/img/climaapp3.png" alt="ClimaApp"></a>
-
-                    <a href="https://rick-and-morty-gabrieldev.netlify.app/" target="_blank"><img data-aos="flip-right" class="img-4" src="./assets/img/rickandmorty.png" alt="rickandmorty"></a>
-
-                    <a href="https://e-commercegab.netlify.app/" target="_blank"><img data-aos="flip-right" class="img-4" src="./assets/img/e-commerce.png" alt="e-commerce"></a>
-                </div>
-        </section>
-        <section data-aos="fade-up" class="contact">
-            <h2 id="contact">Contact</h2>
-            <div class="container-article">
-                <article class="phone">
-                    <img src="./assets/img/phone 3.svg"  alt="Phone">
-                    <h3>Phone number</h3>
-                    <p>+57 311 6036787</p>
-                </article>
-                <article class="email">
-                    <img src="./assets/img/mail 3.svg" alt="mail">
-                    <h3>Email</h3>
-                    <p>Gabrielpelota.8@gmail.com</p>
-                </article>
-            </div>
-        </section>    
+          <a href="https://e-commercegab.netlify.app/" target="_blank"
+            ><img
+              data-aos="flip-right"
+              class="img-4"
+              src="./assets/img/e-commerce.png"
+              alt="e-commerce"
+          /></a>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="contact">
+        <h2 id="contact">Contact</h2>
+        <div class="container-article">
+          <article class="phone">
+            <img src="./assets/img/phone 3.svg" alt="Phone" />
+            <h3>Phone number</h3>
+            <p>+57 311 6036787</p>
+          </article>
+          <article class="email">
+            <img src="./assets/img/mail 3.svg" alt="mail" />
+            <h3>Email</h3>
+            <p>Gabrielpelota.8@gmail.com</p>
+          </article>
+        </div>
+      </section>
     </main>
     <footer data-aos="fade-up">
-        <div class="h2">
-            <h2>Gabriel Sanchez Alarcon</h2>
-            <h3 >Hecho con mucho <i class="fa-solid fa-heart" style="color: #ef9919;"></i></h3>
-            </div>
+      <div class="h2">
+        <h2>Gabriel Sanchez Alarcon</h2>
+        <h3>
+          Hecho con mucho
+          <i class="fa-solid fa-heart" style="color: #ef9919"></i>
+        </h3>
+      </div>
     </footer>
     <script src="./assets/js/toggle.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-        </script>
-    <script src="https://kit.fontawesome.com/1313268e8c.js" crossorigin="anonymous"></script>
-</body>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/1313268e8c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/effectLetters.js"></script>
+  </body>
 </html>

@@ -16,6 +16,7 @@
   
 }
 
+
 .container-hamburguer span{
     color: #ffff;
 }
@@ -82,10 +83,20 @@ nav a{
     }
 }
 .container-title h1{
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 600;
     margin: 0.67em 1.0em;
 }
+
+@media (min-width:425px){
+    .container-title h1{
+        font-size: 32px;
+    font-weight: 600;
+    margin: 0.67em 1.0em;
+    
+    }
+}
+
 .container-title h2{
     font-size: 30px;
     font-weight: 600;
